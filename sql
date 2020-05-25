@@ -48,4 +48,4 @@ create table `loan`    #创建借书表
 primary key(`username`,`book_id`,`loan_number`),    #主键 学号 图书编号 出借数量
 foreign key(`username`) references `user`(`username`),  #外键 学号 
 foreign key(`book_id`) references `book`(`book_id`)     #外键 图书编号
-);  
+);   
