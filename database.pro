@@ -25,7 +25,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 QTPLUGIN += QSQLMYSQL
 
 SOURCES += main.cpp\
-        database.cpp
+        database.cpp 
 
 HEADERS  += database.h
 
