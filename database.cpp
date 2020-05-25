@@ -24,7 +24,7 @@
 #include <QFileDialog>             //包含文件窗口类
 
 
-/* 构造函数 */
+/* 构造函数 */ 
 database::database(QObject *parent)
     : QObject(parent)
 {
