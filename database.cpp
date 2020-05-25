@@ -150,7 +150,7 @@ void database::setWindowTitle()
     window->show();
 }
 
-/* 登录窗口布局 */
+/* 登录窗口布局 */ 
 void database::setWindowLogin()
 {
     //登录时禁用登录和注册按钮
